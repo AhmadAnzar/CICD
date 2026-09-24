@@ -35,6 +35,6 @@ jobs:
           if [ -n "$DEMO_SECRET" ]; then
             echo "Secret is available."
           else
-            echo "Secret is not configured."
+            echo "Secret is not configured. Try again"
             exit 1
           fi
