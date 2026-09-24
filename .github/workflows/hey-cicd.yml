@@ -4,7 +4,7 @@ on:
     branches:
       - main
       - feature/*
-      
+
 jobs:
   hello:
     runs-on: ubuntu-latest
