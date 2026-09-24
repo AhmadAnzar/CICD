@@ -11,3 +11,5 @@ jobs:
         run: date
       - name: Show OS
         run: uname -a
+      - name: Show my name
+        run: echo "They call me Anzar"
