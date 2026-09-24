@@ -31,7 +31,7 @@ jobs:
       - name: Check secret
         env:
           DEMO_SECRET: ${{ secrets.DEMO_SECRET }}
-        run: |
+        run: | 
           if [ -n "$DEMO_SECRET" ]; then
             echo "Secret is available."
           else
